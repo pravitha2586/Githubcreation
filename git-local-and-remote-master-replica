@@ -1,5 +1,5 @@
 ********************************************************************************
-in linux machine 1
+in linux machine 1(server)
 
 #yum install git -y
 #mkdir -p /usr/opt/git1
@@ -22,7 +22,7 @@ $git config --global push.default simple
 git push
 
 
-go to machine2 and run the following commands
+go to machine2 (client1)and run the following commands
 
 yum install git -y
 #useradd leo
